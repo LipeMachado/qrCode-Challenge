@@ -1,12 +1,12 @@
 import React from 'react';
 import {
-    ContainerBox,
-    Box,
-    ContainerImage,
+    ContainerBoxSection,
+    BoxDiv,
+    ContainerImageDiv,
     Image,
-    ContainerTitle,
+    ContainerTitleDiv,
     Title,
-    ContainerParagraph,
+    ContainerParagraphDiv,
     Subtitle
 } from './style';
 
@@ -15,25 +15,25 @@ import qrCode from '../../images/image-qr-code.png'
 export function InitialPage() {
     return (
         <>
-            <ContainerBox>
-                <Box>
-                    <ContainerImage>
+            <ContainerBoxSection>
+                <BoxDiv>
+                    <ContainerImageDiv>
                         <Image alt="" src={qrCode} />
-                    </ContainerImage>
+                    </ContainerImageDiv>
                     
-                    <ContainerTitle>
+                    <ContainerTitleDiv>
                         <Title>
                             Improve your front-end skills by building projects
                         </Title>
-                    </ContainerTitle>
+                    </ContainerTitleDiv>
 
-                    <ContainerParagraph>
+                    <ContainerParagraphDiv>
                         <Subtitle>
                             Scan the QR code to visit Frontend Mentor and take your coding skills to the next level.
                         </Subtitle>
-                    </ContainerParagraph>
-                </Box>
-            </ContainerBox>
+                    </ContainerParagraphDiv>
+                </BoxDiv>
+            </ContainerBoxSection>
         </>
     );
 }

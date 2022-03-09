@@ -1,13 +1,13 @@
 import styled from 'styled-components';
 
-export const ContainerBox = styled.section`
+export const ContainerBoxSection = styled.section`
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
 `;
 
-export const Box = styled.div`
+export const BoxDiv = styled.div`
     width: 300px;
     height: 450px;
     text-align: center;
@@ -16,7 +16,7 @@ export const Box = styled.div`
     font-family: 'Outfit', sans-serif;
 `;
 
-export const ContainerImage = styled.div`
+export const ContainerImageDiv = styled.div`
     display: flex;
     justify-content: center;
     margin-top: 15px;
@@ -28,7 +28,7 @@ export const Image = styled.img`
 `;
 
 
-export const ContainerTitle = styled.div`
+export const ContainerTitleDiv = styled.div`
     display: inline-block;
     max-width: 270px;
     margin-top: 20px;
@@ -41,13 +41,13 @@ export const Title = styled.h1`
 `;
 
 
-export const ContainerParagraph = styled.div`
+export const ContainerParagraphDiv = styled.div`
     display: inline-block;
     max-width: 260px;
     margin-top: 10px;
 `;
 
-export const Subtitle = styled.p`
+export const Subtitle = styled.h2`
     color: hsl(220, 15%, 55%);
     font-weight: 400;
     font-size: 15px;
