@@ -10,12 +10,13 @@ import {
     Subtitle
 } from './style';
 
-import qrCode from '../../images/image-qr-code.png'
+import qrCode from '../../assets/image-qr-code.png'
 
 export function InitialPage() {
     return (
         <>
             <ContainerBoxSection>
+                
                 <BoxDiv>
                     <ContainerImageDiv>
                         <Image alt="" src={qrCode} />
@@ -33,6 +34,7 @@ export function InitialPage() {
                         </Subtitle>
                     </ContainerParagraphDiv>
                 </BoxDiv>
+
             </ContainerBoxSection>
         </>
     );
