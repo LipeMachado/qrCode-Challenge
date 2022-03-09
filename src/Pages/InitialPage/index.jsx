@@ -8,7 +8,7 @@ import {
     Title,
     ContainerParagraph,
     Subtitle
-} from './InitialPage.style';
+} from './style';
 
 import qrCode from '../../images/image-qr-code.png'
 
