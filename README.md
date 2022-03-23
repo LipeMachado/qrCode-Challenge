@@ -13,3 +13,13 @@ Site que eu desenvolvi: <a href="https://qrcode-challenge.vercel.app/" target="_
 ## Versão Mobile:
 
 ![mobile-design](https://user-images.githubusercontent.com/49801321/157365994-f4675a31-6a1a-4585-ac76-443b659d4145.jpg)
+
+## 🚀  Technologies
+
+-   React JS
+-   JavaScript
+
+Packages:
+
+-   styled-components
+-   react-router-dom
