@@ -12,7 +12,7 @@ import {
 
 import qrCode from '../../assets/image-qr-code.png'
 
-export function InitialPage() {
+export function QrCodeBox() {
     return (
         <>
             <ContainerBoxSection>
