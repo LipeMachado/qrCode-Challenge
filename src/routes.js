@@ -1,12 +1,12 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 
-import { InitialPage } from './Components/QrCodeBox/';
+import { QrCodeBox } from './Components/QrCodeBox/';
 
 export default function MainRoutes() {
     return (
         <Routes>
-            <Route path="/" element={<InitialPage />}/>
+            <Route path="/" element={<QrCodeBox />}/>
         </Routes>
     );
 }
