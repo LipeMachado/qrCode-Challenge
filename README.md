@@ -1,4 +1,4 @@
-# Desafio Frontend - QR code component
+# Desafio QR code component | Frontend
 
 Site do desafio (Frontend Mentor): <a href="https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H" target="_blank">Frontend Mentor</a>
 
